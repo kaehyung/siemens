@@ -1,0 +1,9 @@
+@app.route('/keyboard')
+def keyboard():
+
+dataSend = {
+"type" : "buttons",
+"buttons" : [u"빌딩자동화사업부"]
+}
+
+return jsonify(dataSend)
